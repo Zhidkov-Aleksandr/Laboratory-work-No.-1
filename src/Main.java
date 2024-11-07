@@ -4,29 +4,29 @@ public class Main {
     public static void main(String[] args) {
         StudentAddRemove control = new StudentAddRemove();
 
-        // Добавляем студентов
-        control.addStudent(new Student("Федосеев Константин Андреевич", "Группа 544", 1, Arrays.asList(3, 4, 3, 5, 3)));
-        control.addStudent(new Student("Карпова Элла Александровна", "Группа 543", 3, Arrays.asList(2, 3, 5, 4)));
-        control.addStudent(new Student("Волков Абрам Оскарович", "Группа 544", 1, Arrays.asList(4, 5, 4, 5)));
-        control.addStudent(new Student("Громов Аполлон Константинович", "Группа 534", 3, Arrays.asList(4, 5, 4, 3, 3)));
-        control.addStudent(new Student("Овчинникова Индира Артемовна", "Группа 534", 1, Arrays.asList(3, 5, 3, 4)));
-        control.addStudent(new Student("Агафонова Камилла Васильевна", "Группа 544", 4, Arrays.asList(3, 3, 5, 5)));
-        control.addStudent(new Student("Коновалов Агафон Феликсович", "Группа 545", 1, Arrays.asList(2, 2, 3)));
-        control.addStudent(new Student("Прохорова Адель Геннадиевна", "Группа 543", 1, Arrays.asList(3, 5, 5, 5, 4)));
-        control.addStudent(new Student("Баранов Велор Борисович", "Группа 542", 4, Arrays.asList(4, 4, 4, 4)));
-        control.addStudent(new Student("Александров Емельян Игоревич", "Группа 543", 3, Arrays.asList(3, 4, 5, 4, 3)));
-        control.addStudent(new Student("Зиновьев Авраам Оскарович", "Группа 545", 2, Arrays.asList(2, 2, 2)));
-        control.addStudent(new Student("Куликова Инесса Онисимовна", "Группа 545", 1, Arrays.asList(5, 5, 5, 5, 5, 5, 5)));
+        // Р”РѕР±Р°РІР»СЏРµРј СЃС‚СѓРґРµРЅС‚РѕРІ
+        control.addStudent(new Student("Р¤РµРґРѕСЃРµРµРІ РљРѕРЅСЃС‚Р°РЅС‚РёРЅ РђРЅРґСЂРµРµРІРёС‡", "Р“СЂСѓРїРїР° 544", 1, Arrays.asList(3, 4, 3, 5, 3)));
+        control.addStudent(new Student("РљР°СЂРїРѕРІР° Р­Р»Р»Р° РђР»РµРєСЃР°РЅРґСЂРѕРІРЅР°", "Р“СЂСѓРїРїР° 543", 3, Arrays.asList(2, 3, 5, 4)));
+        control.addStudent(new Student("Р’РѕР»РєРѕРІ РђР±СЂР°Рј РћСЃРєР°СЂРѕРІРёС‡", "Р“СЂСѓРїРїР° 544", 1, Arrays.asList(4, 5, 4, 5)));
+        control.addStudent(new Student("Р“СЂРѕРјРѕРІ РђРїРѕР»Р»РѕРЅ РљРѕРЅСЃС‚Р°РЅС‚РёРЅРѕРІРёС‡", "Р“СЂСѓРїРїР° 534", 3, Arrays.asList(4, 5, 4, 3, 3)));
+        control.addStudent(new Student("РћРІС‡РёРЅРЅРёРєРѕРІР° РРЅРґРёСЂР° РђСЂС‚РµРјРѕРІРЅР°", "Р“СЂСѓРїРїР° 534", 1, Arrays.asList(3, 5, 3, 4)));
+        control.addStudent(new Student("РђРіР°С„РѕРЅРѕРІР° РљР°РјРёР»Р»Р° Р’Р°СЃРёР»СЊРµРІРЅР°", "Р“СЂСѓРїРїР° 544", 4, Arrays.asList(3, 3, 5, 5)));
+        control.addStudent(new Student("РљРѕРЅРѕРІР°Р»РѕРІ РђРіР°С„РѕРЅ Р¤РµР»РёРєСЃРѕРІРёС‡", "Р“СЂСѓРїРїР° 545", 1, Arrays.asList(2, 2, 3)));
+        control.addStudent(new Student("РџСЂРѕС…РѕСЂРѕРІР° РђРґРµР»СЊ Р“РµРЅРЅР°РґРёРµРІРЅР°", "Р“СЂСѓРїРїР° 543", 1, Arrays.asList(3, 5, 5, 5, 4)));
+        control.addStudent(new Student("Р‘Р°СЂР°РЅРѕРІ Р’РµР»РѕСЂ Р‘РѕСЂРёСЃРѕРІРёС‡", "Р“СЂСѓРїРїР° 542", 4, Arrays.asList(4, 4, 4, 4)));
+        control.addStudent(new Student("РђР»РµРєСЃР°РЅРґСЂРѕРІ Р•РјРµР»СЊСЏРЅ РРіРѕСЂРµРІРёС‡", "Р“СЂСѓРїРїР° 543", 3, Arrays.asList(3, 4, 5, 4, 3)));
+        control.addStudent(new Student("Р—РёРЅРѕРІСЊРµРІ РђРІСЂР°Р°Рј РћСЃРєР°СЂРѕРІРёС‡", "Р“СЂСѓРїРїР° 545", 2, Arrays.asList(2, 2, 2)));
+        control.addStudent(new Student("РљСѓР»РёРєРѕРІР° РРЅРµСЃСЃР° РћРЅРёСЃРёРјРѕРІРЅР°", "Р“СЂСѓРїРїР° 545", 1, Arrays.asList(5, 5, 5, 5, 5, 5, 5)));
 
-        // Обработка студентов
+        // РћР±СЂР°Р±РѕС‚РєР° СЃС‚СѓРґРµРЅС‚РѕРІ
         control.removeStudent();
-        // Печать студентов 1 курса
+        // РџРµС‡Р°С‚СЊ СЃС‚СѓРґРµРЅС‚РѕРІ 1 РєСѓСЂСЃР°
         control.printStudents(1);
-        // Печать студентов 2 курса
+        // РџРµС‡Р°С‚СЊ СЃС‚СѓРґРµРЅС‚РѕРІ 2 РєСѓСЂСЃР°
         control.printStudents(2);
-        // Печать список отчисленных студентов
+        // РџРµС‡Р°С‚СЊ СЃРїРёСЃРѕРє РѕС‚С‡РёСЃР»РµРЅРЅС‹С… СЃС‚СѓРґРµРЅС‚РѕРІ
         control.printExpelledStudents();
-        // Печать список переведенных на следующий курс студентов
+        // РџРµС‡Р°С‚СЊ СЃРїРёСЃРѕРє РїРµСЂРµРІРµРґРµРЅРЅС‹С… РЅР° СЃР»РµРґСѓСЋС‰РёР№ РєСѓСЂСЃ СЃС‚СѓРґРµРЅС‚РѕРІ
         control.printPromotedStudents();
     }
 }
